@@ -1,0 +1,25 @@
+PODS:
+  - iOS_pod_core (0.1.0):
+    - SDWebImage (= 5.11.0)
+  - SDWebImage (5.11.0):
+    - SDWebImage/Core (= 5.11.0)
+  - SDWebImage/Core (5.11.0)
+
+DEPENDENCIES:
+  - iOS_pod_core (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - SDWebImage
+
+EXTERNAL SOURCES:
+  iOS_pod_core:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  iOS_pod_core: 18799678b60473f14004775297c23dedf544cc79
+  SDWebImage: 7acbb57630ac7db4a495547fb73916ff3e432f6b
+
+PODFILE CHECKSUM: e99deeae22c8aa944c32beda7787d9d352af67b6
+
+COCOAPODS: 1.11.3

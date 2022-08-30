@@ -21,22 +21,23 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/1365700334@qq.c/iOS_pod_core'
+  s.homepage         = 'https://github.com/EijiCcccc/ios_pod_core'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '1365700334@qq.c' => '1365700334@qq.com' }
-  s.source           = { :git => 'https://github.com/1365700334@qq.c/iOS_pod_core.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/EijiCcccc/ios_pod_core.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'iOS_pod_core/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'iOS_pod_core' => ['iOS_pod_core/Assets/*.png']
-  # }
+#   s.resource_bundles = {
+#     'iOS_pod_core' => ['iOS_pod_core/Assets/*']
+#   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'SDWebImage','5.11.0'
 end

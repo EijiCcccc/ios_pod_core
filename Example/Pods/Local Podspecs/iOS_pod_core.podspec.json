@@ -1,0 +1,27 @@
+{
+  "name": "iOS_pod_core",
+  "version": "0.1.0",
+  "summary": "A short description of iOS_pod_core.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/EijiCcccc/ios_pod_core",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "1365700334@qq.c": "1365700334@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/EijiCcccc/ios_pod_core.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "iOS_pod_core/Classes/**/*",
+  "dependencies": {
+    "SDWebImage": [
+      "5.11.0"
+    ]
+  }
+}
