@@ -142,7 +142,6 @@
 		DECA57AF64C5C257919649ECBB75F0B9 /* SDWebImageCacheSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = CD18B680D476026688569F9CD3EA713F /* SDWebImageCacheSerializer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DEE74CD0E78DE0DB4056A8A3244B6ED1 /* UIImage+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 55C918511004BDF34C605DBE06C73E80 /* UIImage+GIF.m */; };
 		DFF712F228BE1FB800422274 /* UITableViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF712EE28BE1FB800422274 /* UITableViewExtensions.swift */; };
-		DFF712F328BE1FB800422274 /* UIImage+SDImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF712EF28BE1FB800422274 /* UIImage+SDImageManager.swift */; };
 		DFF712F428BE1FB800422274 /* UIImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF712F028BE1FB800422274 /* UIImageExtensions.swift */; };
 		DFF712F528BE1FB800422274 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF712F128BE1FB800422274 /* UIViewExtensions.swift */; };
 		DFF7131228BE1FEA00422274 /* UIDevice+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF712F828BE1FEA00422274 /* UIDevice+Extension.swift */; };
@@ -377,7 +376,6 @@
 		DC16F2106847EFB8129FBFFF4D82C066 /* SDImageLoader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageLoader.m; path = SDWebImage/Core/SDImageLoader.m; sourceTree = "<group>"; };
 		DE9A7FF3E1BC023E40530D46AD5F9F4D /* SDWebImageTransitionInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageTransitionInternal.h; path = SDWebImage/Private/SDWebImageTransitionInternal.h; sourceTree = "<group>"; };
 		DFF712EE28BE1FB800422274 /* UITableViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewExtensions.swift; sourceTree = "<group>"; };
-		DFF712EF28BE1FB800422274 /* UIImage+SDImageManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+SDImageManager.swift"; sourceTree = "<group>"; };
 		DFF712F028BE1FB800422274 /* UIImageExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtensions.swift; sourceTree = "<group>"; };
 		DFF712F128BE1FB800422274 /* UIViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
 		DFF712F828BE1FEA00422274 /* UIDevice+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIDevice+Extension.swift"; sourceTree = "<group>"; };
@@ -820,7 +818,6 @@
 			isa = PBXGroup;
 			children = (
 				DFF712EE28BE1FB800422274 /* UITableViewExtensions.swift */,
-				DFF712EF28BE1FB800422274 /* UIImage+SDImageManager.swift */,
 				DFF712F028BE1FB800422274 /* UIImageExtensions.swift */,
 				DFF712F128BE1FB800422274 /* UIViewExtensions.swift */,
 			);
@@ -1251,7 +1248,6 @@
 			files = (
 				DFF712F428BE1FB800422274 /* UIImageExtensions.swift in Sources */,
 				DFF7131428BE1FEA00422274 /* UIImage+LLDB_pin.m in Sources */,
-				DFF712F328BE1FB800422274 /* UIImage+SDImageManager.swift in Sources */,
 				DFF7131E28BE1FEA00422274 /* UITabBar+badge.m in Sources */,
 				DFF7131928BE1FEA00422274 /* UIViewController+Extension.swift in Sources */,
 				DFF7132428BE1FEA00422274 /* NSString+Extension.m in Sources */,
