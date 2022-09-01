@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'iOS_pod_core'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'iOS pod core'
 
 # This description is used to generate tags and improve search results.
