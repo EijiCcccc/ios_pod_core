@@ -159,7 +159,7 @@
 		DECA57AF64C5C257919649ECBB75F0B9 /* SDWebImageCacheSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = CD18B680D476026688569F9CD3EA713F /* SDWebImageCacheSerializer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DEE74CD0E78DE0DB4056A8A3244B6ED1 /* UIImage+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 55C918511004BDF34C605DBE06C73E80 /* UIImage+GIF.m */; };
 		DF312721B8DEA98E090450EAFE860701 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 870BCCFD25B12D5FAB4343DF92E889F3 /* String+Extension.swift */; };
-		DFF7143228C065D100422274 /* Geometric.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF7143128C065D100422274 /* Geometric.swift */; };
+		DFF7143428C0676700422274 /* Geometric.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF7143328C0676700422274 /* Geometric.swift */; };
 		E33A7CDF3107CD3426ADD0D906100CD4 /* SDImageHEICCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = E6F6C409E49DFAAEF3E2502831393E33 /* SDImageHEICCoder.m */; };
 		E4AF87F8012F919F00E2E8698A1A3C33 /* SDWebImageCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = 170FB4B54C65A71301AFD37912A43BB3 /* SDWebImageCompat.m */; };
 		E515780850EBAD40342EBF2997BFC2D2 /* SDWebImage.h in Headers */ = {isa = PBXBuildFile; fileRef = F9A58AAD31AFEA7A57BA0D8B94D01692 /* SDWebImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -378,7 +378,7 @@
 		D8E55ED2EC7D2536B2AC59260EAECCA4 /* SDImageGIFCoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageGIFCoder.m; path = SDWebImage/Core/SDImageGIFCoder.m; sourceTree = "<group>"; };
 		DC16F2106847EFB8129FBFFF4D82C066 /* SDImageLoader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageLoader.m; path = SDWebImage/Core/SDImageLoader.m; sourceTree = "<group>"; };
 		DE9A7FF3E1BC023E40530D46AD5F9F4D /* SDWebImageTransitionInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageTransitionInternal.h; path = SDWebImage/Private/SDWebImageTransitionInternal.h; sourceTree = "<group>"; };
-		DFF7143128C065D100422274 /* Geometric.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Geometric.swift; sourceTree = "<group>"; };
+		DFF7143328C0676700422274 /* Geometric.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Geometric.swift; path = iOS_pod_core/Classes/Geometric.swift; sourceTree = "<group>"; };
 		E01B7B61C360C8694C1B7CBEC42BECF7 /* SDWebImageCacheKeyFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageCacheKeyFilter.m; path = SDWebImage/Core/SDWebImageCacheKeyFilter.m; sourceTree = "<group>"; };
 		E02E8EA3037D20AF7CBFB404278C28C4 /* SDAnimatedImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDAnimatedImage.m; path = SDWebImage/Core/SDAnimatedImage.m; sourceTree = "<group>"; };
 		E1F0665BA8A98658B74E535C2A49CF4E /* SDImageCodersManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCodersManager.h; path = SDWebImage/Core/SDImageCodersManager.h; sourceTree = "<group>"; };
@@ -802,7 +802,7 @@
 		9502CAF79570294D775673E56C228367 /* iOS_pod_core */ = {
 			isa = PBXGroup;
 			children = (
-				DFF7143128C065D100422274 /* Geometric.swift */,
+				DFF7143328C0676700422274 /* Geometric.swift */,
 				2D841A93D1472FC1CF7B04824F261A7E /* Category */,
 				BDF7D477138DEAE7C9228BEFC8CAA9D5 /* Core */,
 				58138C00FC7EF4B2064A9FB59DE0AD87 /* Pod */,
@@ -1230,7 +1230,7 @@
 				74531DAEDC414D125BDAC3FC4F1646E9 /* DateExtensions.swift in Sources */,
 				76597B010CABE907567FEA7639A9DA41 /* Fonts.swift in Sources */,
 				9A323B39428472C9F95F8454E6B3A3C9 /* iOS_pod_core-dummy.m in Sources */,
-				DFF7143228C065D100422274 /* Geometric.swift in Sources */,
+				DFF7143428C0676700422274 /* Geometric.swift in Sources */,
 				B32F34E66A876950BDAFFD575077C7CF /* NSAttributedString+Extension.m in Sources */,
 				6572B59C79BE8D4E899CF7BA7F4CEC66 /* NSAttributedStringExtensions.swift in Sources */,
 				A76924580F5E95AE0ADC7B0CA7AF6B14 /* NSObject+Extension.swift in Sources */,
